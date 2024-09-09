@@ -1,3 +1,6 @@
+import os
+os.system ("cls")
+
 # x=123
 # y=123456
 # z=12
@@ -25,6 +28,7 @@
 # print(f"平均值:{mean}")
 
 
+# eval() 可以同時輸入兩個個數，但要用,隔開
 #4.	兩點距離計算：
 # import math
 # x1= float(input("請輸入第1組x座標"))
