@@ -1,0 +1,26 @@
+
+table{
+
+}
+
+tr{
+
+}
+
+.aaa,.ccc{
+ background-color: grey;
+ color: rgb(100, 98, 103);
+}
+
+.aaa p{color: rgb(205, 30, 30);}
+
+.bbb{
+    padding: 30px;
+    text-align: justify;
+}
+
+
+.abc{
+    background-color: #21bc71;
+    text-align: center;
+}

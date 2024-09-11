@@ -1,0 +1,20 @@
+body {
+    background-color: #def017;
+}
+
+h1 {
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+
+}
+
+h2 {
+  
+}
+
+p {
+    letter-spacing: 2px;
+    text-align: justify;
+    line-height: 30px;
+}
