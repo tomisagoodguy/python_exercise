@@ -1,3 +1,5 @@
+import os
+os.system('cls')
 # 1.	使用選擇敘述撰寫一個程式，讓使用者輸入一個正整數，判斷是奇數還是偶數
 
 # num = int(input("請輸入正整數"))
@@ -227,3 +229,8 @@ lower() 方法的作用是將字串中的所有字母轉換為小寫
 num1 = int(input("請輸入第一個整數"))
 num2 = int(input("請輸入第二個整數"))
 num3 = int(input("請輸入第三個整數"))
+
+numbers = [num1, num2, num3]
+numbers.sort()
+
+print(f"由小到大的排序結果是:{numbers[0]},{numbers[1]},{numbers[2]}")
