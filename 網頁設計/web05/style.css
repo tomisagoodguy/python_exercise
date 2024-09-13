@@ -1,0 +1,32 @@
+a {
+    color: #ffffff;
+    /* 白色文字，與背景形成對比 */
+    display: block;
+    background-color: #ff6f61;
+    /* 使用柔和但醒目的珊瑚色作為背景 */
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border: none;
+    /* 去掉邊框，讓樣式更簡潔 */
+    border-radius: 10px;
+    /* 圓角讓按鈕更柔和 */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    /* 輕微的陰影 */
+    background-image: linear-gradient(to right, #ff6f61, #ff8a65);
+    /* 柔和的漸變 */
+    transition: all 0.3s ease;
+    /* 平滑過渡效果 */
+}
+
+a:hover {
+    color: #ffffff;
+    /* 保持白色文字 */
+    background-color: #ff8a65;
+    /* 懸停時背景變得稍深 */
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+    /* 增強陰影效果 */
+    transform: scale(1.05);
+    /* 懸停時輕微放大 */
+}
