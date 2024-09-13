@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, Helvetica, "微軟正黑體"
+    sans-serif;
+}
+
+h1{
+ color: rgb(233, 184, 69);
+ background-color: #ed4545;
+height: 80px;
+}
+
+h2{
+
+}
+p{
+
+}
+
+a{
+color: rgb(187, 72, 249);
+width: 200px;
+height: 80px;
+display: block;
+background-color: #0ae135;
+}
