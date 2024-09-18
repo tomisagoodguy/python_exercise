@@ -73,7 +73,35 @@ os.system("cls")
 '''
 5	請使用迴圈敘述撰寫程式，讓使用者輸入一個正整數，將此數反轉順序輸出 (利用 % 與 // 處理)
 '''
+# num = int(input("請輸入一個正整數"))
+# #初始化反轉後的數字
+# reversed_sum = 0
 
+# while num >0 :
+#     #獲取最後一位數
+#     digit = num%10
+#     reversed_sum = reversed_sum*10 +digit
+
+#     num = num//10
+# print("反轉後的數字是:", reversed_sum)
+
+
+# # 獲取用戶輸入的正整數
+# num = int(input("請輸入一個正整數："))
+
+# # 將數字轉換為字符串
+# num_str = str(num)
+
+# # 初始化反轉後的數字
+# reversed_num = 0
+
+# # 使用 for 迴圈從右到左遍歷數字的每一位
+# for digit in num_str[::-1]:
+#     # 將當前數字轉換回整數並加到反轉後的數字中
+#     reversed_num = reversed_num * 10 + int(digit)
+
+# # 輸出反轉後的數字
+# print("反轉後的數字是：", reversed_num)
 
 '''
 6	請使用迴圈敘述撰寫程式，讓使用者輸入一個正整數n，利用迴圈計算n!的值。
@@ -94,6 +122,23 @@ os.system("cls")
 '''
 7	(1) 請使用迴圈敘述撰寫程式，讓使用者輸入一個正整數n (n < 10)，顯示 n*n乘法表。
 (2)每項運算式格式化排列整齊，每個運算子與運算元輸出的欄寬為2，而每項乘積輸出的欄寬為4，皆靠左對齊不跳行。
+# 獲取用戶輸入
+n = int(input("請輸入一個正整數 n (n < 10): "))
+
+# 檢查輸入是否有效
+if n <= 0 or n >= 10:
+    print("輸入無效，請輸入1到9之間的整數。")
+else:
+    # 外層迴圈控制行數
+    for i in range(1, n + 1):
+        # 內層迴圈控制列數
+        for j in range(1, n + 1):
+            # 計算乘積
+            product = i * j
+            # 格式化輸出
+            print(f"{i:<2}*{j:<2}={product:<4}", end="")
+        # 每行結束後換行
+        print()
 
 '''
 
@@ -111,6 +156,8 @@ os.system("cls")
 請輸入正整數 654789
   654789 數字拆開後相加為 39
 '''
+
+'''
 test = int(input("請輸入測試次數"))
 if test >= 10:
     print("輸入錯誤！數字不能大於或等於10")
@@ -119,6 +166,10 @@ else:
         num = int(input("請輸入正整數"))
         # 檢查輸入是否為兩位數以上
         if num < 10:
+
+        
+'''
+
 
 '''
 9	使用者輸入一筆存款金額、年利率及經過的月份，並顯示每個月存款總額。輸出到小數點第二位數。
@@ -151,3 +202,5 @@ Month    Amout
 # for month in range(1,months+1):
 #     current_amount*=(1+monthly_rate)
 #     print(f"{month:4d}  {current_amount:2f}")
+# 獲取用戶輸入
+
