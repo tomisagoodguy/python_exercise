@@ -1,5 +1,6 @@
 import os
 os.system('cls')
+
 # 1	撰寫一個程式，由使用者輸入10個數字，然後找出最小值並且輸出
 # numbers = []
 # # 讓用戶輸入第一個數字，並假設它是最小的
@@ -209,20 +210,61 @@ BMI公式： BMI = 體重(公斤) / 〖身高〗^2(〖公尺〗^2)
 
 '''
 
+# year1 = int(input("請輸入第一個西元年分"))
+# year2 = int(input("請輸入第二個西元年分"))
 
-year1 = int(input("請輸入第一個西元年分"))
-year2 = int(input("請輸入第二個西元年分"))
+# start_year = min(year1, year2)
+# end_year = max(year1, year2)
 
-start_year = min(year1, year2)
-end_year = max(year1, year2)
+# leap_year = []
 
-leap_year = []
+# for year in range(start_year, end_year+1):
+#     if year % 400 ==0 or (year % 4 ==0 and year % 100!=0):
+#         leap_year.append(year)
 
-for year in range(start_year, end_year+1):
-    if year % 400 ==0 or (year % 4 ==0 and year % 100!=0):
-        leap_year.append(year)
+# for i in range(0, len(leap_year),10):
+#     line = leap_year[i:i+10]
+#     for year in line:
+#         print(f"{year:4d}",end=" ")
+#     print()
 
-for i in range(0, len(leap_year),10):
     
+#9	輸入3個正整數 a、b、c然後求出最大公因數
+# a = int(input("請輸入一個正整數 a :"))
+# b = int(input("請輸入一個正整數 b :"))
+# c = int(input("請輸入一個正整數 c :"))
 
+# smallest = min(a, b, c)
 
+# gcd = 1
+# for i in range(1, smallest+1):
+#     if a % i == 0 and b % i == 0 and b % i == 0:
+#      gcd = i
+# print(f"{a}和{b}和{c}最大公因數是{gcd}")
+
+'''
+10	完美數：一個數如果恰好等於它的因數(不含數字本身)之和，這個數就稱為[完美數]。請使用 for 迴圈設計一程式，輸入一個值，找出這個值以內的所有完美數，執行結果如範例。
+執行結果
+請輸入一個數： 1000
+1 ~ 1000 完美數有: 6  28  496  
+# 輸入一個數字
+n = int(input("請輸入一個數： "))
+
+print(f"1 ~ {n} 完美數有: ", end="")
+
+# 檢查從1到n的每個數
+for num in range(1, n+1):
+    # 初始化因數之和
+    sum_of_factors = 0
+    # 找出num的所有因數並求和
+    for i in range(1, num):
+        if num % i == 0:
+            sum_of_factors += i
+
+    # 如果因數之和等於數字本身，它就是完美數
+    if sum_of_factors == num:
+        print(num, end="  ")
+
+print()  # 最後打印一個換行
+
+'''
