@@ -1,0 +1,14 @@
+body {
+ background-image: url(./bg02.jpg);
+}
+
+div {
+background-color: #fff;
+background-image: url(./bg07.png),url(./bg06.png),url(./bg08.png);
+background-repeat: no-repeat,repeat-x,no-repeat;
+background-position: right top, left top, bottom ;
+}
+
+div p {
+    text-align: justify;
+}

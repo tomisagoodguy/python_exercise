@@ -1,0 +1,16 @@
+
+body {
+    background-color: #e99023;
+    background-image: url(./top.png);
+}
+
+div {
+    background-color: hsla(0, 0%, 100%, 0.216);
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+div p {
+    text-align: justify;
+}

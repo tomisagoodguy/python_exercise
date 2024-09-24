@@ -1,0 +1,35 @@
+.box {
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.box a {
+
+    background-image: url(./btn01.png);
+    display: block;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    /* text-align: center; */
+    text-indent: 70px;
+    box-sizing: border-box;
+
+
+}
+
+
+.box a:hover {
+    background-image: url(./btn02.png);
+    color: #fff;
+    text-indent: 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+
+
