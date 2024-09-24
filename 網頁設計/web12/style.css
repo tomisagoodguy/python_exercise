@@ -1,0 +1,43 @@
+ul {
+    padding-left: 0;
+    list-style: none;
+    /* 將 list-style: none; 移到這裡，如您所說 */
+    margin: 0;
+    /* 添加這行以消除默認邊距 */
+}
+
+li {
+    margin-bottom: 10px;
+    /* 將間距移到這裡，使其更加靈活 */
+}
+
+li a {
+    display: block;
+    width: 400px;
+    height: 200px;
+    background-color: #3498db;
+    /* 柔和的藍色*/
+    color: #ffffff;
+    /* 白色文字 */
+    text-decoration: none;
+    /* 移除下劃線 */
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    /* 文字居中 */
+    line-height: 200px;
+    /* 垂直居中文字 */
+    transition: all 0.3s ease;
+    /* 平滑過渡效果 */
+    border-radius: 10px;
+    /* 添加圓角 */
+}
+
+li a:hover {
+    background-color: #2980b9;
+    /* 稍深的藍色作為懸停效果 */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    /* 添加陰影效果 */
+    transform: translateY(-3px);
+    /* 輕微上移效果 */
+}
