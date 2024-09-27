@@ -1,0 +1,25 @@
+#四則運算自動命題
+import random
+n1 = random.randint(1,100)  #自動產生第一個數字
+n2 = random.randint(1,100)  #自動產生第二個數字
+op = random.choice(['+','-','*','/'])   #自動產生四則運算符號
+while True:
+    if op == '+':
+        solution = n1 + n2      #計算兩個數字和
+    elif op == '-':
+        if n1 < n2 :
+            n1,n2 = n2,n1
+        solution = n1 - n2
+    elif op == '*':
+        solution = n1 * n2
+    else :
+        solution = round(n1 / n2,2)     #四捨五入小數點後2位數
+
+    answer = eval(input(f'{n1} {op} {n2} = '))  #顯示題目，讓使用者輸入答案
+
+    if answer == solution:  #比對輸入答案是否正確
+        print('恭喜你答對了！')
+        break
+    else:
+        print('答錯！再試一次')
+print('結束')
