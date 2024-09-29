@@ -210,26 +210,26 @@ BMI公式： BMI = 體重(公斤) / 〖身高〗^2(〖公尺〗^2)
 
 '''
 
-# year1 = int(input("請輸入第一個西元年分"))
-# year2 = int(input("請輸入第二個西元年分"))
+year1 = int(input("請輸入第一個西元年分"))
+year2 = int(input("請輸入第二個西元年分"))
 
-# start_year = min(year1, year2)
-# end_year = max(year1, year2)
+start_year = min(year1, year2)
+end_year = max(year1, year2)
 
-# leap_year = []
+leap_year = []
 
-# for year in range(start_year, end_year+1):
-#     if year % 400 ==0 or (year % 4 ==0 and year % 100!=0):
-#         leap_year.append(year)
+for year in range(start_year, end_year+1):
+    if year % 400 ==0 or (year % 4 ==0 and year % 100!=0):
+        leap_year.append(year)
 
-# for i in range(0, len(leap_year),10):
-#     line = leap_year[i:i+10]
-#     for year in line:
-#         print(f"{year:4d}",end=" ")
-#     print()
+for i in range(0, len(leap_year),10):
+    line = leap_year[i:i+10]
+    for year in line:
+        print(f"{year:4d}",end=" ")
+    print()
 
     
-#9	輸入3個正整數 a、b、c然後求出最大公因數
+9	#輸入3個正整數 a、b、c然後求出最大公因數
 # a = int(input("請輸入一個正整數 a :"))
 # b = int(input("請輸入一個正整數 b :"))
 # c = int(input("請輸入一個正整數 c :"))
