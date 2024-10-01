@@ -1,0 +1,23 @@
+
+/* 剛開始對全部做設定 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    /* 一定要下背景和盒子大小 */
+    box-sizing: border-box;
+    background-image: url(./banner.jpg);
+    height: 350px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 180px;
+    padding-left: 650px;
+}
+
+
+h1{
+    background-color: #f01212;
+}
