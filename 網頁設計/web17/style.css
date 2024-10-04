@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-image: url(./banner.png);
+    width: 1000px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+
+}
+
+
+h1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+ul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding-right: 30px;
+    padding-top: 20px;
+
+}
+
+li {
+    list-style: none;
+    float: left;
+    /* display: inline-block;
+    margin-left: 10px; */
+    /* 列表項目之間的距離 */
+}
+
+li a {
+    box-sizing: border-box;
+    display: block;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 90px;
+
+    /* text-decoration: none;
+    /* 移除預設的下劃線 */
+    color: black;
+    */
+    /* 設置默認文字顏色 */
+}
+
+
+
+li a:hover {
+    color: blue;
+    /* 當滑鼠懸停時改變文字顏色 */
+    text-decoration: underline;
+    /* 當滑鼠懸停時添加下劃線 */
+}
+
+li.icon1 a {
+    background-image: url(./icon1_1.png);
+}
+
+li.icon2 a {
+    background-image: url(./icon2_1.png);
+}
+
+li.icon3 a {
+    background-image: url(./icon3_1.png);
+}
+
+li.icon4 a {
+    background-image: url(./icon4_1.png);
+}
+
+li.icon5 a {
+    background-image: url(./icon5_1.png);
+}
+
+li.icon1 a:hover {
+    background-image: url(./icon1_2.png);
+}
+
+li.icon2 a:hover {
+    background-image: url(./icon2_2.png);
+}
+
+li.icon3 a:hover {
+    background-image: url(./icon3_2.png);
+}
+
+li.icon4 a:hover {
+    background-image: url(./icon4_2.png);
+}
+
+li.icon5 a:hover {
+    background-image: url(./icon5_2.png);
+}

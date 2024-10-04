@@ -1,0 +1,41 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+  
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    position: relative;
+    /* 母盒用相對關係 */
+    /* padding: 120px 100px 0 650px; */
+    /* padding順序:上右下左 */
+    /* padding-left: 650px;
+    padding-right: 100px;
+    padding-top: 120px; */
+}
+
+h1{
+    position: absolute;
+    /* 子盒下絕對座標，沒有padding的概念了，因為會浮起來 */
+    left: 650px;
+    top: 120px;
+    background-color: #8e0c0c;
+    /* margin-bottom: 10px; */
+    /* text-align: center; */
+    /* text-indent: 10px; */
+}
+
+p{
+    position: absolute;
+    right: 100px;
+    top: 170px;
+    width: 450px;
+    background-color: #32c51b; 
+}
