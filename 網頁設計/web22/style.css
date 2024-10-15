@@ -51,11 +51,66 @@ h3{
 
 /*==============================*/	
 .box3{
-	background-color:#09F;
+	background-color:rgb(223, 69, 13);
 }
 
+.box3 li{
+	list-style: none;
 
-	
+}
+
+.box3 a{
+	background-color: #9C0;
+	display: block;
+	width: 200px;
+	height: 60px;
+	margin-bottom: 10px;
+	color: #F90;
+	line-height: 60px;
+	text-decoration: none;
+	text-indent: 30px;
+
+}
+
+.box3 a span{
+	font-family: Entypo;
+	font-size: 50px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+/* 滑鼠滑過a時的span */
+.box3 a:hover span{
+	color: rgb(248, 26, 203);
+}
+
+.box3 a:hover{
+   color: rgb(26, 30, 235);
+   
+}
+
+.box1 b{
+	color: #09F;
+	font-style: normal;
+	font-family: Entypo;
+	font-size: 40px;
+	vertical-align: middle;
+	/* vertical-align: 是行置中的意思 */
+	margin-right: 20px;
+}
+
+.box2 i {
+	font-family:Entypo ;
+	font-style: normal;
+	font-size: 50px;
+	vertical-align: middle;
+	margin-right: 20px;
+
+}
+
+li {
+	margin-bottom: 20px;
+	list-style: none;
+}
 /*======字型嵌入======*/
 
 
@@ -65,5 +120,8 @@ h3{
 }
 
 
-
+@font-face {
+	font-family: "Entypo";
+	src: url(./Entypo-webfont.ttf);
+}
 
