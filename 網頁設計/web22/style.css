@@ -121,10 +121,18 @@ li {
 .box4 p::before{
 	/* content: '★'; */
 		content: '\e88a';
+		/* ② 輸入content: " \碼點 ";
+			（註：碼點前面要加「 \ 」 ） */
 		font-family: 'Material Symbols Outlined';
+		vertical-align: middle;
 		
 }
 
+.box4 p::after {
+	content: '\e872';
+	font-family: 'Material Symbols Outlined';
+	vertical-align: middle;
+}
 
 @font-face {
 	font-family: '3Dumb';
